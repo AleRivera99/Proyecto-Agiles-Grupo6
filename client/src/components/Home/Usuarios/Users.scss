@@ -1,0 +1,22 @@
+.avatar-home{
+    width: 100%;
+    height: 205px;
+    border-radius: 25px;
+    padding: 8px;
+}
+
+.users-home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    
+    h1{
+        font-size: 40px;
+    }
+}
+
+.items-usuaios{
+    margin-top: 20px;
+}

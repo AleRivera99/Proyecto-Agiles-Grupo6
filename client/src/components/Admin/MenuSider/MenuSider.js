@@ -23,10 +23,16 @@ function MenuSlider(props){
                         <span className="nav-text">Usuarios</span>
                     </Link>
                </Menu.Item>
-               <Menu.Item key="/admin/menu">
-                    <Link to="/admin/menu">
+               <Menu.Item key="/admin/dieta">
+                    <Link to="/admin/dieta">
                     <DollarOutlined />
-                        <span className="nav-text">Transacciones</span>
+                        <span className="nav-text">Dietas</span>
+                    </Link>
+               </Menu.Item>
+               <Menu.Item key="/admin/recetas">
+                    <Link to="/admin/recetas">
+                    <DollarOutlined />
+                        <span className="nav-text">Recetas</span>
                     </Link>
                </Menu.Item>
            </Menu>

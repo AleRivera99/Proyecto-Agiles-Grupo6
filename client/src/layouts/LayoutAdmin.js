@@ -35,7 +35,7 @@ export default function LayoutAdmin(props){
                       <LoadRoutes routes={routes} />
                     </Content>
                     <Footer className="layout-admin_footer">
-                       E-bank
+                      Nutricion
                     </Footer>
                 </Layout>
              </Layout>

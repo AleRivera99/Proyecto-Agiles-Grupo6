@@ -49,7 +49,6 @@ export function signInApi(data){
             return response.json();
         })
         .then(result => {
-            console.log(result);
             return result;
         })
         .catch(err =>{
@@ -78,6 +77,28 @@ export function getUsersApi(token){
                     return err.message;
                 });
 }
+export function getUsersApiPublic(token){
+    const url = `${basePath}/${apiVersion}/users-public`
+
+    const params ={
+        method: "GET",
+        headers: {
+            "Content-Type": "application/json",
+            Authorization: token
+        }
+    };
+    return fetch(url, params)
+            .then(response => {
+                return response.json()
+            })
+                .then(result => {
+                    return result;
+                })
+                .catch(err =>{
+                    return err.message;
+                });
+}
+    
         
         
 export function getUsersApiActive(token, status){

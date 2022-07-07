@@ -10,9 +10,7 @@ export default function LayoutBasic(props){
     const { Content, Footer} = Layout;
     return(
         <Layout>
-         <h2>Menu Sider</h2>
         <Layout>
-          <h2>Menu....</h2>
             <Content>
               <LoadRoutes routes={routes} />
             </Content>

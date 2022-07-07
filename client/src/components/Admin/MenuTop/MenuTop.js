@@ -18,7 +18,7 @@ export default function MenuTop(props){
     return (
         <div className="menu-top">
             <div className="menu_top_left">
-                <h1 className="h1-title-banks">E-bank</h1>
+                <h1 className="h1-title-banks">NUT</h1>
                 {/* <img className="menu-top__left-logo" src={LogoCompany}
                 alt=" Owl Corporation" /> */}
                 <Button type="link" onClick={()=> setMenuCollapsed(!menuCollapsed)}>

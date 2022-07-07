@@ -8,11 +8,13 @@ import LayoutBasic from '../layouts/LayoutBasic'
 import AdminHome from '../pages/Admin' 
 import AdminSignIn from '../pages/Admin/SignIn'
 import AdminUsers from '../pages/Admin/Users'
-import AdminMenuWeb from '../pages/Admin/MenuWeb'
+import AdminDieta from '../pages/Admin/Dieta'
+import AdminRecetas from '../pages/Admin/Recetas'
 
 //Pages
 import Home from '../pages/Home'
-import Contact from '../pages/Contact'
+import Recetas from '../pages/Recetas'
+import Dietas from '../pages/Dietas'
 
 //Other
 import Error404 from '../pages/Error404'
@@ -40,8 +42,13 @@ const routes =[
                 exact:true
             },
             {
-                path: "/admin/menu",
-                component:AdminMenuWeb,
+                path: "/admin/dieta",
+                component:AdminDieta,
+                exact: true
+            },
+            {
+                path: "/admin/recetas",
+                component:AdminRecetas,
                 exact: true
             },
             {
@@ -61,8 +68,13 @@ const routes =[
                 exact: true
             },
             {
-                path: "/contact",
-                component: Contact,
+                path: "/recetas",
+                component: Recetas,
+                exact : true
+            },
+            {
+                path: "/dietas",
+                component: Dietas,
                 exact : true
             },
             {

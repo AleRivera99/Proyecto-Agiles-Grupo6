@@ -1,0 +1,22 @@
+{
+  "name": "Grupo13",
+  "version": "1.0.0",
+  "description": "BackEnd para proyecto de ACA",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-node": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.28",
+    "nodemon": "^2.0.4",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.4.0"
+  },
+  "scripts": {
+    "start": "nodemon  index.js"
+  }
+}
